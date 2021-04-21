@@ -32,7 +32,7 @@
     "require": {
         "php": ">=7.1.3",
         "mailjet/mailjet-apiv3-php": "^1.2",
-        "ychakroun/MailjetSwiftMailer": "^2.0"
+        "mailjet/mailjet-swiftmailer": "^2.0"
     },
     "require-dev": {
         "phpspec/phpspec": "~4@dev",
@@ -40,5 +40,11 @@
     },
     "config": {
         "bin-dir": "bin"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:ychakroun/MailjetSwiftMailer.git"
+        }
+    ]
 }
